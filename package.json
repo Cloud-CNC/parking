@@ -1,0 +1,35 @@
+{
+  "name": "cloud-cnc",
+  "version": "0.0.1-parking.0",
+  "description": "Parked package - DO NOT USE!",
+  "author": "Cloud CNC contributors",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "tsup",
+    "start": "node dist/cli.js",
+    "postinstall": "node dist/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "tsup": "^6.1.3"
+  },
+  "homepage": "https://cloud-cnc.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloud-CNC/parking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cloud-CNC/parking/issues"
+  }
+}
